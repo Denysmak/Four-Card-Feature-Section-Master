@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+
+padding: 0%;
+margin: 0%;
+}
+html{
+height: 100%;
+margin: 0%;
+
+}
+p{
+font-size: 15px;
+font-weight: 200;
+}
+
+body{
+ 
+margin: 0%;
+padding: 0%;
+height: 1250px;
+width: 100%;
+margin-bottom: 100px;
+font-family: 'Poppins', sans-serif;
+}
+main{
+ background-color: hsl(0, 0%, 98%);   
+width: 100%;
+
+height: 100%;
+margin-right: auto;
+margin-left: auto;
+position:absolute;
+left:50%;
+top: 50%;
+transform: translate(-50%, -50%);
+
+}
+h2{
+
+text-align: center;
+width: 100%;
+}
+.first{
+
+font-weight: 200;
+margin-top: 100px;
+
+}
+.principal{
+
+width: 315px;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+margin-top: 15px;
+
+}
+header{
+
+ margin-top: 30px;
+margin-bottom: 60px;
+}
+.boxes{
+width: 62%;
+background-color: white;
+
+margin: auto;
+border-radius: 8px;
+height: 200px;
+
+box-shadow:0px 20px 30px rgb(226, 225, 225);
+margin-bottom: 20px;
+}
+.text{
+margin-top: 20px;
+margin-left: 20px;
+
+}
+img{
+
+float: right;
+margin-right: 25px;
+margin-top: 15px;
+}
+.one{
+
+border-top: 4px solid hsl(180, 62%, 55%)
+
+}
+.two{
+
+border-top: 4px solid hsl(0, 78%, 62%)
+
+}
+.three{
+
+border-top: 4px solid hsl(34, 97%, 64%);
+
+}
+.four{
+
+border-top: 4px solid hsl(212, 86%, 64%);
+margin-bottom: 100px;
+
+}
+@media screen and (min-width: 1000px){
+main{
+
+height: 100vh;
+
+}
+body{
+
+height: 100vh;
+
+}
+h2{
+
+font-size: 36px;
+
+}
+.principal{
+
+width: 500px;
+
+}
+.four{
+
+position: absolute;
+left: 68%;
+top: 0%;
+transform: translateY(+50%);
+
+
+}
+.one{
+
+position: absolute;
+left: 1%;
+top: 50%;
+transform: translateY(-50%);
+
+}
+.quadrados{
+margin: auto;
+width: 1000px;
+position: relative;
+
+
+}
+.boxes{
+
+width: 300px;
+
+}
+}
+
